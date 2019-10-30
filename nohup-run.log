@@ -1,0 +1,14 @@
+2019-10-30 09:37:05.890  INFO 17342 --- [           main] o.t.rest.module.app.RestServiceApp       : Starting RestServiceApp v0.0.1-SNAPSHOT on mac-francisco.local with PID 17342 (/Users/francisco/Documents/workspaceneon/spring-boot-multi-module/rest-module/target/rest-module-app.jar started by francisco in /Users/francisco/Documents/workspaceneon/spring-boot-multi-module)
+2019-10-30 09:37:05.901  INFO 17342 --- [           main] o.t.rest.module.app.RestServiceApp       : No active profile set, falling back to default profiles: default
+2019-10-30 09:37:08.553  INFO 17342 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-10-30 09:37:08.635  INFO 17342 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-30 09:37:08.635  INFO 17342 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-30 09:37:08.900  INFO 17342 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-30 09:37:08.901  INFO 17342 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2865 ms
+2019-10-30 09:37:09.516  INFO 17342 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 09:37:10.399  INFO 17342 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-10-30 09:37:10.407  INFO 17342 --- [           main] o.t.rest.module.app.RestServiceApp       : Started RestServiceApp in 5.496 seconds (JVM running for 6.254)
+2019-10-30 09:37:15.825  INFO 17342 --- [nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 09:37:15.826  INFO 17342 --- [nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-30 09:37:15.846  INFO 17342 --- [nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2019-10-30 09:37:52.714  INFO 17342 --- [       Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

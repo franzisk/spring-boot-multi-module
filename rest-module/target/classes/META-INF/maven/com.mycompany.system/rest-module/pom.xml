@@ -30,4 +30,21 @@
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
+
+
+	<!-- To generate executable jar file, dependencies modules will be included 
+		in the final jar -->
+	<build>
+		<finalName>rest-module-app</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
